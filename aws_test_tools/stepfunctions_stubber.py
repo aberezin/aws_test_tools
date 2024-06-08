@@ -7,7 +7,7 @@ Stub functions that are used by the AWS Step Functions unit tests.
 
 from datetime import datetime
 import json
-from test_tools.example_stubber import ExampleStubber
+from aws_test_tools.example_stubber import ExampleStubber
 
 
 class StepFunctionsStubber(ExampleStubber):

@@ -7,7 +7,7 @@ Stub functions that are used by the Amazon Simple Storage Service Glacier unit t
 
 import io
 
-from test_tools.example_stubber import ExampleStubber
+from aws_test_tools.example_stubber import ExampleStubber
 
 
 class GlacierStubber(ExampleStubber):

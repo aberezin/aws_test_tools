@@ -5,7 +5,7 @@
 Stub functions that are used by the Amazon Cognito Identity Provider unit tests.
 """
 
-from test_tools.example_stubber import ExampleStubber
+from aws_test_tools.example_stubber import ExampleStubber
 
 
 class CognitoIdpStubber(ExampleStubber):

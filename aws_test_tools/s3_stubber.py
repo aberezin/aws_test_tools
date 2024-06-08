@@ -12,7 +12,7 @@ import io
 import json
 from botocore.stub import ANY
 
-from test_tools.example_stubber import ExampleStubber
+from aws_test_tools.example_stubber import ExampleStubber
 
 
 class S3Stubber(ExampleStubber):

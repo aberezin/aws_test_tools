@@ -1,0 +1,1 @@
+sed -i 's/from test_tools\./from aws_test_tools./' **/*py

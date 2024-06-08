@@ -7,7 +7,7 @@ Stub functions that are used by the Amazon Simple Email Service (Amazon SES) uni
 
 import json
 from botocore.stub import ANY
-from test_tools.example_stubber import ExampleStubber
+from aws_test_tools.example_stubber import ExampleStubber
 
 
 class SesStubber(ExampleStubber):

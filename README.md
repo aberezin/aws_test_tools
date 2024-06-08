@@ -5,12 +5,14 @@
 I ripped this from aws-doc-sdk-examples/python/test_tools/
 and making into its own package. I appreciate that the more standard way to handle these is
 to drop them into some test subdir or have them above the package tree and have a conftest.py with
-``iii`
+```
 sys.path.append("../..") # or whereever
 from test_tools.fixtures.common import *
-`
 
-So turning this into a package
+```
+
+So I turned aws's test-utils this into a package and renamed the package aws_test_utils.
+TODO give example of how to use. I already tested it using the glue test_scaffold.py testcase
 
 ## Purpose
 

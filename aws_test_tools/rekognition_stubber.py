@@ -5,7 +5,7 @@
 Stub functions that are used by the Amazon Rekognition unit tests.
 """
 
-from test_tools.example_stubber import ExampleStubber
+from aws_test_tools.example_stubber import ExampleStubber
 
 
 class RekognitionStubber(ExampleStubber):

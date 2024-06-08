@@ -8,7 +8,7 @@ When tests are run against an actual AWS account, the stubber class does not
 set up stubs and passes all calls through to the Boto 3 client.
 """
 
-from test_tools.example_stubber import ExampleStubber
+from aws_test_tools.example_stubber import ExampleStubber
 
 
 class PinpointSmsVoiceStubber(ExampleStubber):

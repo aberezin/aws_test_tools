@@ -5,7 +5,7 @@
 Stub functions that are used by the AWS HealthImaging unit tests.
 """
 
-from test_tools.example_stubber import ExampleStubber
+from aws_test_tools.example_stubber import ExampleStubber
 import botocore
 import io
 import gzip

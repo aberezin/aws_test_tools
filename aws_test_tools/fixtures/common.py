@@ -11,7 +11,7 @@ import logging
 import time
 import pytest
 
-from test_tools.stubber_factory import stubber_factory
+from aws_test_tools.stubber_factory import stubber_factory
 
 logger = logging.getLogger(__name__)
 
