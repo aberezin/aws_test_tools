@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aws-test-tools"
+version = "0.1.0"
+description = "ripped from aws examples and made into separate package"
+authors = ["Alan Berezin <alan.berezin1.gmail.com>"]
+license = "Apache 2 just like the aws examples repo"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.08"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
